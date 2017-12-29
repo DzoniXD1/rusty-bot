@@ -31,4 +31,4 @@ async def info(ctx, user: discord.Member):
     print ("Info working")
     
 #Token
-bot.run("Mzk2MDE5ODc3NDY4NTY5NjI0.DScj7A.HY69URiQMkcuwJ8l9FAaauEfRcw")
+bot.run("Mzk2MDE5ODc3NDY4NTY5NjI0.DSeyaQ.rxRlazw1fM-mr_RAL9ocILEY4jg")
