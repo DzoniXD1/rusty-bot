@@ -30,5 +30,10 @@ async def info(ctx, user: discord.Member):
     await bot.say(embed=embed)
     print ("Info working")
     
+@bot.command(pass_context=True)
+async def server(ctx):
+    await bot.say("We are currently playing on Rustafied Odd (US)")
+    print ("Server working")
+    
 #Token
 bot.run("Mzk2MDE5ODc3NDY4NTY5NjI0.DSeyaQ.rxRlazw1fM-mr_RAL9ocILEY4jg")
